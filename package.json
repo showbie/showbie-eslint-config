@@ -1,0 +1,47 @@
+{
+  "name": "@showbie/eslint-config",
+  "description": "ESLint configuration for Showbie projects",
+  "license": "ISC",
+  "author": "Showbie (https://www.showbie.com)",
+  "maintainers": [
+    "Jeff Nelson @stormwarning (https://www.showbie.com)"
+  ],
+  "homepage": "https://github.com/showbie/showbie-eslint-config",
+  "repository": "showbie/showbie-eslint-config",
+  "version": "0.0.0",
+  "scripts": {
+    "precommit": "lint-staged && npm test",
+    "lint": "npm-run-all lint:*",
+    "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "eslint-plugin-ember": "^5.1.0",
+    "prettier-eslint-cli": "^4.7.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "npm-run-all": "^4.1.2"
+  },
+  "keywords": [
+    "eslint-config",
+    "prettier style",
+    "showbie"
+  ],
+  "lint-staged": {
+    "*.{js|json}": [
+      "prettier-eslint --list-different",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
