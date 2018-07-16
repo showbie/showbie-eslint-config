@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/showbie/showbie-eslint-config",
   "repository": "showbie/showbie-eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "precommit": "lint-staged && npm test",
     "lint": "npm-run-all lint:*",
