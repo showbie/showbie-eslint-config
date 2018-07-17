@@ -11,9 +11,9 @@ module.exports = {
     'ember/no-observers': 'warn',
     'ember/use-ember-get-and-set': 'warn',
 
-    'ember/order-in-components': 'warn',
-    'ember/order-in-controllers': 'warn',
-    'ember/order-in-models': 'warn',
-    'ember/order-in-routes': 'warn',
+    'ember/order-in-components': 'error',
+    'ember/order-in-controllers': 'error',
+    'ember/order-in-models': 'error',
+    'ember/order-in-routes': 'error',
   },
 };
