@@ -15,9 +15,11 @@
     "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
     "test": "npm run lint"
   },
+  "optionalDependencies": {
+    "eslint-plugin-ember": "^6.1.0"
+  },
   "dependencies": {
-    "eslint-plugin-ember": "^5.2.0",
-    "prettier-eslint-cli": "^4.7.0"
+    "prettier-eslint-cli": "^4.7.1"
   },
   "peerDependencies": {
     "eslint": ">=4"

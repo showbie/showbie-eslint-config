@@ -9,7 +9,7 @@
 Install the conventions by running:
 
 ```sh
-yarn add -D eslint @showbie/eslint-config
+yarn add -D prettier-eslint-cli eslint-plugin-ember @showbie/eslint-config
 ```
 
 Then add the extends to your `.eslintrc.js`:
@@ -20,6 +20,9 @@ Then add the extends to your `.eslintrc.js`:
   rules: { /* … */ }
 }
 ```
+
+If Ember conventions aren’t required, don’t install the plugin and
+don’t include the extra `extends` item.
 
 You’ll probably want to ensure you have a couple of Prettier’s
 options set as well.
