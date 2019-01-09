@@ -8,7 +8,6 @@ module.exports = {
   extends: ['plugin:ember/recommended'],
   rules: {
     'ember/no-empty-attrs': 'error',
-    'ember/no-observers': 'error',
     'ember/order-in-components': 'error',
     'ember/order-in-controllers': 'error',
     'ember/order-in-models': 'error',
