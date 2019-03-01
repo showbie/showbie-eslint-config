@@ -5,6 +5,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.3.0 — 2019-03-01
+
+### 🚀 Enhancement
+* [#15](https://github.com/showbie/showbie-eslint-config/pull/15) 🎁 Update Ember config overrides ([@stormwarning](https://github.com/stormwarning))
+
+### 🏠 Internal
+* [#9](https://github.com/showbie/showbie-eslint-config/pull/9) 🔒 Bump lodash from 4.17.5 to4.17.11 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#13](https://github.com/showbie/showbie-eslint-config/pull/13) 📦 Bump eslint-config-prettier from 4.0.0 to 4.1.0 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#12](https://github.com/showbie/showbie-eslint-config/pull/12) 📦 Bump eslint from 5.13.0 to 5.14.1 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#14](https://github.com/showbie/showbie-eslint-config/pull/14) 📦 Bump lint-staged from 8.1.3 to 8.1.5 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#8](https://github.com/showbie/showbie-eslint-config/pull/8) 📦 Bump eslint-plugin-ember from 6.1.0 to 6.2.0 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#7](https://github.com/showbie/showbie-eslint-config/pull/7) 📦 Upgrade devDependencies ([@stormwarning](https://github.com/stormwarning))
+
+### Committers: 1
+- Jeff ([@stormwarning](https://github.com/stormwarning))
+
 ## 0.2.0 — 2019-01-09
 
 ### 💣 Breaking Change
@@ -27,7 +43,8 @@ All notable changes to this project will be documented in this file.
 
 ## 0.1.1 — 2018-07-16
 
-- **Fixed:** Removed `parser` setting since the package is not installed
+### 🐛 Bug Fix
+* Remove `parser` setting since the package is not installed
 
 ## 0.1.0 — 2018-04-11
 
