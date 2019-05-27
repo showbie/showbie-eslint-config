@@ -16,7 +16,7 @@
     "test": "npm run lint"
   },
   "optionalDependencies": {
-    "eslint-plugin-ember": "^6.3.0"
+    "eslint-plugin-ember": "^6.5.0"
   },
   "dependencies": {
     "prettier-eslint-cli": "^4.7.1"
