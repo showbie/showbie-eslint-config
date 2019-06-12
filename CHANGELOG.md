@@ -5,6 +5,18 @@
 
 All notable changes to this project will be documented in this file.
 
+### 0.3.1 — 2019-06-12
+
+#### 🏠 Internal
+* [#31](https://github.com/showbie/showbie-eslint-config/pull/31) 📦 Bump lint-staged from 8.1.5 to 8.2.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#33](https://github.com/showbie/showbie-eslint-config/pull/33) 📦 Bump husky from 1.3.1 to 2.4.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#30](https://github.com/showbie/showbie-eslint-config/pull/30) 📦 Bump eslint-plugin-ember from 6.3.0 to 6.5.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#28](https://github.com/showbie/showbie-eslint-config/pull/28) 📦 Bump eslint-config-prettier from 4.1.0 to 4.3.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#20](https://github.com/showbie/showbie-eslint-config/pull/20) Bump eslint from 5.15.3 to 5.16.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+#### Committers: 1
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ## 0.3.0 — 2019-03-01
 
 ### 🚀 Enhancement
@@ -41,9 +53,9 @@ All notable changes to this project will be documented in this file.
 ### Committers: 1
 - Jeff ([@stormwarning](https://github.com/stormwarning))
 
-## 0.1.1 — 2018-07-16
+### 0.1.1 — 2018-07-16
 
-### 🐛 Bug Fix
+#### 🐛 Bug Fix
 * Remove `parser` setting since the package is not installed
 
 ## 0.1.0 — 2018-04-11
