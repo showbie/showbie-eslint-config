@@ -5,6 +5,14 @@
 
 All notable changes to this project will be documented in this file.
 
+### 0.3.2 — 2019-06-14
+
+#### 🏠 Internal
+* [#34](https://github.com/showbie/showbie-eslint-config/pull/34) 📦 Bump lint-staged from 8.2.0 to 8.2.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+#### Committers: 1
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ### 0.3.1 — 2019-06-12
 
 #### 🏠 Internal
