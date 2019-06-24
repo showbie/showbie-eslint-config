@@ -27,7 +27,7 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
-    "husky": "^2.4.1",
+    "husky": "^2.5.0",
     "lerna-changelog": "^0.8.2",
     "lint-staged": "^8.2.1"
   },
