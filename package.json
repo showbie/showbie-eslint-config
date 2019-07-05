@@ -19,7 +19,7 @@
     "eslint-plugin-ember": "^6.7.1"
   },
   "dependencies": {
-    "prettier-eslint-cli": "^4.7.1"
+    "prettier-eslint-cli": "^5.0.0"
   },
   "peerDependencies": {
     "eslint": ">=4"
