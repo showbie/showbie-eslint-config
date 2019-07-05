@@ -5,6 +5,19 @@
 
 All notable changes to this project will be documented in this file.
 
+### 0.3.3 — 2019-07-05
+
+#### 🏠 Internal
+* [#45](https://github.com/showbie/showbie-eslint-config/pull/45) Bump husky from 2.4.1 to 3.0.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#37](https://github.com/showbie/showbie-eslint-config/pull/37) Bump prettier-eslint-cli from 4.7.1 to 5.0.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#43](https://github.com/showbie/showbie-eslint-config/pull/43) Bump eslint-config-prettier from 4.3.0 to 6.0.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#48](https://github.com/showbie/showbie-eslint-config/pull/48) Bump lint-staged from 8.2.1 to 9.0.2 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#47](https://github.com/showbie/showbie-eslint-config/pull/47) Bump eslint-plugin-ember from 6.5.1 to 6.7.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+#### Committers: 1
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
+
 ### 0.3.2 — 2019-06-14
 
 #### 🏠 Internal
