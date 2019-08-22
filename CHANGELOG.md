@@ -5,6 +5,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.4.0 — 2019-08-22
+
+#### 🚀 Enhancement
+* [#64](https://github.com/showbie/showbie-eslint-config/pull/64) 🎁 Add React/TypeScript settings ([@stormwarning](https://github.com/stormwarning))
+
+#### 🏠 Internal
+* [#65](https://github.com/showbie/showbie-eslint-config/pull/65) 📦 Update dependency versions ([@stormwarning](https://github.com/stormwarning))
+
+#### Committers: 1
+- Jeff ([@stormwarning](https://github.com/stormwarning))
+
 ### 0.3.4 — 2019-07-16
 
 #### 🏠 Internal
@@ -50,10 +61,10 @@ All notable changes to this project will be documented in this file.
 
 ## 0.3.0 — 2019-03-01
 
-### 🚀 Enhancement
+#### 🚀 Enhancement
 * [#15](https://github.com/showbie/showbie-eslint-config/pull/15) 🎁 Update Ember config overrides ([@stormwarning](https://github.com/stormwarning))
 
-### 🏠 Internal
+#### 🏠 Internal
 * [#9](https://github.com/showbie/showbie-eslint-config/pull/9) 🔒 Bump lodash from 4.17.5 to4.17.11 ([@dependabot[bot]](https://github.com/apps/dependabot))
 * [#13](https://github.com/showbie/showbie-eslint-config/pull/13) 📦 Bump eslint-config-prettier from 4.0.0 to 4.1.0 ([@dependabot[bot]](https://github.com/apps/dependabot))
 * [#12](https://github.com/showbie/showbie-eslint-config/pull/12) 📦 Bump eslint from 5.13.0 to 5.14.1 ([@dependabot[bot]](https://github.com/apps/dependabot))
@@ -61,27 +72,27 @@ All notable changes to this project will be documented in this file.
 * [#8](https://github.com/showbie/showbie-eslint-config/pull/8) 📦 Bump eslint-plugin-ember from 6.1.0 to 6.2.0 ([@dependabot[bot]](https://github.com/apps/dependabot))
 * [#7](https://github.com/showbie/showbie-eslint-config/pull/7) 📦 Upgrade devDependencies ([@stormwarning](https://github.com/stormwarning))
 
-### Committers: 1
+#### Committers: 1
 - Jeff ([@stormwarning](https://github.com/stormwarning))
 
 ## 0.2.0 — 2019-01-09
 
-### 💣 Breaking Change
+#### 💣 Breaking Change
 * [#1](https://github.com/showbie/showbie-eslint-config/pull/1) 📦 Upgrade `eslint-plugin-ember` & update Ember settings ([@stormwarning](https://github.com/stormwarning)) \
   The latest version introduced several changes to the `ember/recommended` configuration.
 
-### 🚀 Enhancement
+#### 🚀 Enhancement
 * [#6](https://github.com/showbie/showbie-eslint-config/pull/6) 🔥 Remove deprecated `experimentalObjectRestSpread` option ([@stormwarning](https://github.com/stormwarning)) \
   See the [migrating to 5.0.0 section](eslint.org/docs/user-guide/migrating-to-5.0.0#-the-experimentalobjectrestspread-option-has-been-deprecated) of the eslint docs for more details.
 * [#5](https://github.com/showbie/showbie-eslint-config/pull/5) 🔥 Remove `semi` rule ([@stormwarning](https://github.com/stormwarning)) \
   This can be removed since Prettier will handle semicolons.
 * [#1](https://github.com/showbie/showbie-eslint-config/pull/1) 📦 Upgrade `eslint-plugin-ember` & update Ember settings ([@stormwarning](https://github.com/stormwarning))
 
-### 🏠 Internal
+#### 🏠 Internal
 * [#4](https://github.com/showbie/showbie-eslint-config/pull/4) 📦 Add `lerna-changelog` ([@stormwarning](https://github.com/stormwarning))
 * [#3](https://github.com/showbie/showbie-eslint-config/pull/3) 📦 Upgrade devDependencies ([@stormwarning](https://github.com/stormwarning))
 
-### Committers: 1
+#### Committers: 1
 - Jeff ([@stormwarning](https://github.com/stormwarning))
 
 ### 0.1.1 — 2018-07-16
@@ -91,7 +102,7 @@ All notable changes to this project will be documented in this file.
 
 ## 0.1.0 — 2018-04-11
 
-### 🎉 Initial project release
+#### 🎉 Initial project release
 
 [img-changelog]: https://img.shields.io/badge/keep-a%20changelog-ef5e39.svg?style=flat-square
 
