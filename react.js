@@ -7,7 +7,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  parser: '@typescript-eslint',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
