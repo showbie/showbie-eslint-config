@@ -1,5 +1,5 @@
 /**
- * Ember-specific rules.
+ * Typescript-flavoured React-specific rules.
  */
 module.exports = {
   env: {
