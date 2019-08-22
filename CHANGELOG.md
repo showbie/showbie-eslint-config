@@ -5,6 +5,11 @@
 
 All notable changes to this project will be documented in this file.
 
+### 0.4.1 — 2019-08-22
+
+#### 🐛 Bug Fix
+* Fix `parser` setting in React config
+
 ## 0.4.0 — 2019-08-22
 
 #### 🚀 Enhancement
