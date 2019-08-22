@@ -16,24 +16,24 @@
     "test": "npm run lint"
   },
   "optionalDependencies": {
-    "@typescript-eslint/eslint-plugin": "2.0.0",
-    "@typescript-eslint/parser": "2.0.0",
-    "eslint-plugin-ember": "^6.7.1",
-    "eslint-plugin-prettier": "3.1.0",
-    "eslint-plugin-react": "7.14.3"
+    "@typescript-eslint/eslint-plugin": "2.0.x",
+    "@typescript-eslint/parser": "2.0.x",
+    "eslint-plugin-ember": "6.10.x",
+    "eslint-plugin-prettier": "3.1.x",
+    "eslint-plugin-react": "7.14.x"
   },
   "dependencies": {
-    "prettier-eslint-cli": "^5.0.0"
+    "prettier-eslint-cli": "5.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=4"
+    "eslint": ">=5"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^6.0.0",
-    "husky": "^3.0.0",
-    "lerna-changelog": "^0.8.2",
-    "lint-staged": "^9.2.0"
+    "eslint": "6.2.x",
+    "eslint-config-prettier": "6.1.x",
+    "husky": "3.0.x",
+    "lerna-changelog": "0.8.x",
+    "lint-staged": "9.2.x"
   },
   "keywords": [
     "eslint-config",
