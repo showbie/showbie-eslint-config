@@ -29,7 +29,7 @@
     "eslint": ">=5"
   },
   "devDependencies": {
-    "eslint": "6.2.x",
+    "eslint": "6.5.x",
     "eslint-config-prettier": "6.1.x",
     "husky": "3.0.x",
     "lerna-changelog": "0.8.x",
