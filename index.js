@@ -7,6 +7,6 @@ module.exports = {
   env: {
     browser: true,
   },
-  extends: ['eslint:recommended', './code-style.js'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   rules: {},
 };

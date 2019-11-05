@@ -10,10 +10,10 @@ Install the conventions by running:
 
 ```sh
 # Ember projects
-yarn add -D prettier-eslint-cli eslint-plugin-ember @showbie/eslint-config
+yarn add -D eslint prettier @showbie/eslint-config eslint-plugin-{ember,hbs}
 
 # React projects
-npm i -D prettier eslint @showbie/eslint-config @typescript-eslint/{eslint-plugin,parser} eslint-plugin-{prettier,react} eslint-config-prettier
+npm i -D eslint prettier @showbie/eslint-config @typescript-eslint/{eslint-plugin,parser} eslint-plugin-react
 ```
 
 Then add the extends to your `.eslintrc.js`:
