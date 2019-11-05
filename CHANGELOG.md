@@ -5,6 +5,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.0 — 2019-11-05
+
+#### 🚀 Enhancement
+* 💣 [#115](https://github.com/showbie/showbie-eslint-config/pull/115) ⚙️ Update Prettier config ([@stormwarning](https://github.com/stormwarning))
+  - Removes the `prettier-eslint-cli` package and configures eslint to
+  run `prettier` as an `eslint` plugin
+  - Removes blueprint settings from Ember config, leaving only settings
+    that are custom to Showbie
+  - Removes duplicate settings from React config
+
+#### 🏠 Internal
+* [#103](https://github.com/showbie/showbie-eslint-config/pull/103) 📦 Bump `husky` to 3.0.9 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#96](https://github.com/showbie/showbie-eslint-config/pull/96) 📦 Bump `eslint-plugin-react` to 7.16.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#112](https://github.com/showbie/showbie-eslint-config/pull/112) 📦 Bump `@typescript-eslint/parser` to 2.6.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#113](https://github.com/showbie/showbie-eslint-config/pull/113) Bump `@typescript-eslint/eslint-plugin` to 2.6.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#114](https://github.com/showbie/showbie-eslint-config/pull/114) 📦 Upgrade devDependencies ([@stormwarning](https://github.com/stormwarning))
+
+#### Committers: 2
+- Jeff ([@stormwarning](https://github.com/stormwarning))
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ### 0.4.1 — 2019-08-22
 
 #### 🐛 Bug Fix
