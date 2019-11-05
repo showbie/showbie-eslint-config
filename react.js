@@ -3,7 +3,6 @@
  */
 module.exports = {
   env: {
-    browser: true,
     es6: true,
     node: true,
   },
@@ -13,11 +12,10 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'prettier', 'react'],
+  plugins: ['@typescript-eslint', 'react'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
-    'prettier',
     'prettier/@typescript-eslint',
     'prettier/react',
   ],
@@ -38,8 +36,6 @@ module.exports = {
       'error',
       { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
     ],
-
-    'prettier/prettier': 'error',
 
     'react/jsx-filename-extension': [
       'warn',
