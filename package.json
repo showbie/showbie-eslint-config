@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "eslint": "6.6.x",
-    "eslint-config-prettier": "6.1.x",
+    "eslint-config-prettier": "6.5.x",
     "husky": "3.0.x",
     "lerna-changelog": "0.8.x",
     "lint-staged": "9.4.x"
