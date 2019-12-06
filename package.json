@@ -34,7 +34,7 @@
     "eslint": "6.6.x",
     "husky": "3.1.x",
     "lerna-changelog": "0.8.x",
-    "lint-staged": "9.4.x",
+    "lint-staged": "9.5.x",
     "prettier": "1.18.x"
   },
   "keywords": [
