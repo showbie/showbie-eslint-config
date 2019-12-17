@@ -5,6 +5,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.0 — 2019-12-17
+
+#### 🚀 Enhancement
+* [#126](https://github.com/showbie/showbie-eslint-config/pull/126) 🎁 Add `react/sort-comp` and other React rules ([@stormwarning](https://github.com/stormwarning))
+* [#120](https://github.com/showbie/showbie-eslint-config/pull/120) 📦 Bump eslint-plugin-ember from 7.3.0 to 7.7.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#118](https://github.com/showbie/showbie-eslint-config/pull/118) 📦 Bump eslint-config-prettier from 6.5.0 to 6.7.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+#### 🏠 Internal
+* [#120](https://github.com/showbie/showbie-eslint-config/pull/120) 📦 Bump eslint-plugin-ember from 7.3.0 to 7.7.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#128](https://github.com/showbie/showbie-eslint-config/pull/128) 📦 Bump @typescript-eslint/eslint-plugin from 2.6.1 to 2.10.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#118](https://github.com/showbie/showbie-eslint-config/pull/118) 📦 Bump eslint-config-prettier from 6.5.0 to 6.7.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#127](https://github.com/showbie/showbie-eslint-config/pull/127) 📦 Bump @typescript-eslint/parser from 2.6.1 to 2.10.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#122](https://github.com/showbie/showbie-eslint-config/pull/122) 📦 Bump eslint-plugin-react from 7.16.0 to 7.17.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#123](https://github.com/showbie/showbie-eslint-config/pull/123) Bump prettier from 1.18.2 to 1.19.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#125](https://github.com/showbie/showbie-eslint-config/pull/125) Bump eslint from 6.6.0 to 6.7.2 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#121](https://github.com/showbie/showbie-eslint-config/pull/121) 📦 Bump lint-staged from 9.4.2 to 9.5.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#119](https://github.com/showbie/showbie-eslint-config/pull/119) 📦 Bump husky from 3.0.9 to 3.1.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#116](https://github.com/showbie/showbie-eslint-config/pull/116) 📦 Bump lerna-changelog from 0.8.2 to 0.8.3 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+#### Committers: 2
+- Jeff ([@stormwarning](https://github.com/stormwarning))
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ## 1.0.0 — 2019-11-05
 
 #### 🚀 Enhancement
