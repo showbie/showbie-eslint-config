@@ -17,7 +17,7 @@
   },
   "optionalDependencies": {
     "@typescript-eslint/eslint-plugin": "2.10.x",
-    "@typescript-eslint/parser": "2.10.x",
+    "@typescript-eslint/parser": "2.21.x",
     "eslint-plugin-ember": "7.7.x",
     "eslint-plugin-hbs": "0.1.2",
     "eslint-plugin-react": "7.17.x"
