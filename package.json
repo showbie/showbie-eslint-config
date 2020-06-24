@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "2.10.x",
     "eslint-plugin-ember": "7.7.x",
     "eslint-plugin-hbs": "0.1.2",
-    "eslint-plugin-react": "7.17.x"
+    "eslint-plugin-react": "7.20.x"
   },
   "dependencies": {
     "eslint-config-prettier": "6.11.0",
