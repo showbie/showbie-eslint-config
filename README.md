@@ -13,7 +13,7 @@ Install the conventions by running:
 yarn add -D eslint prettier @showbie/eslint-config eslint-plugin-{ember,hbs}
 
 # React projects
-npm i -D eslint prettier @showbie/eslint-config @typescript-eslint/{eslint-plugin,parser} eslint-plugin-react
+npm i -D eslint prettier @showbie/eslint-config @typescript-eslint/{eslint-plugin,parser} eslint-plugin-{react,react-hooks}
 ```
 
 Then add the extends to your `.eslintrc.js`:
