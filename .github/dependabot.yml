@@ -7,6 +7,8 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    commit-message: 'Upgrade: '
-    labels: 'upgrade'
+    commit-message:
+      prefix: 'Upgrade: '
+    labels:
+      - internal
     versioning-strategy: increase-if-necessary
