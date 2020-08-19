@@ -12,7 +12,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'react'],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks'],
   extends: [
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/configs/recommended.json
     'plugin:@typescript-eslint/recommended',
@@ -22,6 +22,8 @@ module.exports = {
     'prettier/@typescript-eslint',
     // https://github.com/prettier/eslint-config-prettier/blob/master/react.js
     'prettier/react',
+    // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
+    'plugin:react-hooks/recommended',
   ],
   settings: {
     react: {
@@ -137,5 +139,10 @@ module.exports = {
         },
       },
     ],
+
+    /**
+     * Enforce hook dependencies
+     */
+    'react-hooks/exhaustive-deps': 'error',
   },
 };
