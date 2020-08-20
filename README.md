@@ -38,9 +38,7 @@ options set as well.
 
 ```json
 "prettier": {
-  "arrowParens": "always",
-  "singleQuote": true,
-  "trailingComma": "es5"
+  "singleQuote": true
 }
 ```
 
