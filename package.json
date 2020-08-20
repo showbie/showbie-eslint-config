@@ -22,7 +22,7 @@
     "@typescript-eslint/parser": "2.34.x",
     "eslint-plugin-ember": "8.12.x",
     "eslint-plugin-hbs": "0.1.2",
-    "eslint-plugin-react": "7.17.x",
+    "eslint-plugin-react": "7.20.x",
     "eslint-plugin-react-hooks": "4.1.0"
   },
   "dependencies": {
