@@ -1,10 +1,10 @@
 # Change Log
 
-## 3.0.0
+## 3.0.0 — 2020-12-09
 
-### Major Changes
+#### 💣 Breaking Change
 
-- [`dc91b41`](https://github.com/showbie/showbie-eslint-config/commit/dc91b41f1fc9c2ef2cf58e950cd4cfefde7b6b97) [#203](https://github.com/showbie/showbie-eslint-config/pull/203) Thanks [@stormwarning](https://github.com/stormwarning)! - Switch to `naming-convention` TypeScript rule
+- [#203](https://github.com/showbie/showbie-eslint-config/pull/203) Switch to `naming-convention` TypeScript rule
 
   The `camelcase` and `interface-name-prefix` rules were deprecated in a
   previous typescript-eslint version. The former settings have been
