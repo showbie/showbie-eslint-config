@@ -45,17 +45,29 @@ module.exports = {
     'prefer-const': 'off',
 
     /**
-     * Enforce camelCase naming convention (ignores property names)
-     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/camelcase.md
+     * Enforce naming conventions
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
      */
-    '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
-
-    /**
-     * Require that interface names (not) be prefixed with `I`
-     * @see https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines#names
-     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/interface-name-prefix.md
-     */
-    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      /** Enforce camelCase naming convention (ignores property names) */
+      {
+        selector: 'property',
+        format: null,
+      },
+      /**
+       * Require that interface names (not) be prefixed with `I`
+       * @see https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines#names
+       */
+      {
+        selector: 'interface',
+        format: ['PascalCase'],
+        custom: {
+          regex: '^I[A-Z]',
+          match: false,
+        },
+      },
+    ],
 
     /**
      * Disallow unused variables
