@@ -1,16 +1,29 @@
 # Change Log
 
+## 3.0.0 — 2020-12-09
+
+#### 💣 Breaking Change
+
+- [#203](https://github.com/showbie/showbie-eslint-config/pull/203) Switch to `naming-convention` TypeScript rule
+
+  The `camelcase` and `interface-name-prefix` rules were deprecated in a
+  previous typescript-eslint version. The former settings have been
+  migrated to the new rule options.
+
+  When upgrading to this version, make sure `@typescript-eslint/eslint-plugin`
+  and `@typescript-eslint/parser` are upgraded to their latest as well.
+
 ## 2.0.0 — 2020-08-20
 
 #### 💣 Breaking Change
 
-- [#181](https://github.com/showbie/showbie-eslint-config/pull/181)  Upgrade `eslint-plugin-ember` to 8.12.0 \
+- [#181](https://github.com/showbie/showbie-eslint-config/pull/181) Upgrade `eslint-plugin-ember` to 8.12.0 \
   A breaking change due to the updates to the recommended rules config
   (see [changelog](https://github.com/ember-cli/eslint-plugin-ember/blob/master/CHANGELOG.md#v800-2020-03-28))
 
 #### 🚀 Enhancement
 
-- [#185](https://github.com/showbie/showbie-eslint-config/pull/185)  Add `react-hooks` plugin to the React config
+- [#185](https://github.com/showbie/showbie-eslint-config/pull/185) Add `react-hooks` plugin to the React config
 - [#172](https://github.com/showbie/showbie-eslint-config/pull/172) Upgrade Prettier to 2.0.5 \
   This is a major version increase to Prettier, which has some new
   default settings, as well as other updates. For more info, see
