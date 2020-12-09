@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/showbie/showbie-eslint-config",
   "repository": "showbie/showbie-eslint-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "scripts": {
     "changelog": "lerna-changelog",
     "changeset": "changeset add",
