@@ -1,7 +1,5 @@
 /**
- * Ember-specific rules.
  * Assumes settings from default Ember blueprints are included.
- *
  * @see https://github.com/ember-cli/ember-new-output/blob/master/.eslintrc.js
  */
 module.exports = {

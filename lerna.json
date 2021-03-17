@@ -1,0 +1,11 @@
+{
+  "command": {
+    "publish": {
+      "message": "Chore: Publish release"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent"
+}

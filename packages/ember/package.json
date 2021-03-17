@@ -1,0 +1,34 @@
+{
+  "name": "@showbie/eslint-config-ember",
+  "version": "3.0.0",
+  "description": "ESLint configuration for Showbie Ember projects",
+  "keywords": [
+    "eslint-config",
+    "ember",
+    "showbie"
+  ],
+  "license": "ISC",
+  "author": "Showbie (https://www.showbie.com)",
+  "maintainers": [
+    "Jeff Nelson (https://www.showbie.com)"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
+    "test": "npm run eslint-check"
+  },
+  "dependencies": {
+    "eslint-plugin-ember": "8.12.x",
+    "eslint-plugin-hbs": "0.1.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=5",
+    "prettier": ">=1.18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

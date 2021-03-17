@@ -1,5 +1,4 @@
 module.exports = {
-  root: true,
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -8,5 +7,4 @@ module.exports = {
     browser: true,
   },
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
-  rules: {},
 };
