@@ -1,40 +1,26 @@
-/**
- * Typescript-flavoured React-specific rules.
- */
 module.exports = {
   env: {
     es6: true,
-    node: true,
   },
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'react', 'react-hooks'],
-  extends: [
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/configs/recommended.json
-    'plugin:@typescript-eslint/recommended',
-    // https://github.com/yannickcr/eslint-plugin-react#recommended
-    'plugin:react/recommended',
-    // https://github.com/prettier/eslint-config-prettier/blob/master/%40typescript-eslint.js
-    'prettier/@typescript-eslint',
-    // https://github.com/prettier/eslint-config-prettier/blob/master/react.js
-    'prettier/react',
-    // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
-    'plugin:react-hooks/recommended',
-  ],
   settings: {
     react: {
       version: 'detect',
     },
   },
-  globals: {
-    Atomics: 'readonly',
-    React: 'writable',
-    SharedArrayBuffer: 'readonly',
-  },
+  plugins: ['react', 'react-hooks'],
+  extends: [
+    '@showbie/eslint-config-typescript',
+    // https://github.com/yannickcr/eslint-plugin-react#recommended
+    'plugin:react/recommended',
+    // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
+    'plugin:react-hooks/recommended',
+    'plugin:prettier/recommended',
+  ],
   rules: {
     /**
      * We don't prefer `const`
@@ -43,46 +29,6 @@ module.exports = {
      * @see https://eslint.org/docs/rules/prefer-const
      */
     'prefer-const': 'off',
-
-    /**
-     * Enforce naming conventions
-     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
-     */
-    '@typescript-eslint/naming-convention': [
-      'error',
-      /** Enforce camelCase naming convention (ignores property names) */
-      {
-        selector: 'property',
-        format: null,
-      },
-      /**
-       * Require that interface names (not) be prefixed with `I`
-       * @see https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines#names
-       */
-      {
-        selector: 'interface',
-        format: ['PascalCase'],
-        custom: {
-          regex: '^I[A-Z]',
-          match: false,
-        },
-      },
-    ],
-
-    /**
-     * Disallow unused variables
-     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-     */
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
-    ],
-
-    /**
-     * Disallows the use of require statements except in import statements
-     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-var-requires.md
-     */
-    '@typescript-eslint/no-var-requires': 'warn',
 
     /**
      * Restrict file extensions that may contain JSX

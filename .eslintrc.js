@@ -1,7 +1,6 @@
 module.exports = {
-  extends: './index.js',
   env: {
     node: true,
   },
-  rules: {},
+  extends: ['./packages/base/index', 'plugin:prettier/recommended'],
 };
