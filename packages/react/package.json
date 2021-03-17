@@ -2,22 +2,23 @@
   "name": "@showbie/eslint-config-react",
   "version": "3.0.0",
   "description": "ESLint configuration for Showbie React projects",
-  "files": [
-    "index.js"
-  ],
-  "main": "index.js",
-  "author": "Showbie (https://www.showbie.com)",
-  "maintainers": [
-    "Jeff Nelson (https://www.showbie.com)"
-  ],
   "keywords": [
     "eslint-config",
     "react",
     "showbie"
   ],
   "license": "ISC",
-  "publishConfig": {
-    "access": "public"
+  "author": "Showbie (https://www.showbie.com)",
+  "maintainers": [
+    "Jeff Nelson (https://www.showbie.com)"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
+    "test": "npm run eslint-check"
   },
   "dependencies": {
     "eslint-plugin-react": "^7.22.0",
@@ -26,5 +27,8 @@
   "peerDependencies": {
     "eslint": ">=5",
     "prettier": ">=1.18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

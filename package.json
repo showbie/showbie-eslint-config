@@ -1,26 +1,37 @@
 {
   "name": "@showbie/eslint-config-root",
-  "description": "ESLint configuration for Showbie projects",
-  "license": "ISC",
+  "version": "3.0.0",
   "private": true,
+  "description": "ESLint configuration for Showbie projects",
+  "homepage": "https://github.com/showbie/showbie-eslint-config",
+  "repository": "showbie/showbie-eslint-config",
+  "license": "ISC",
   "author": "Showbie (https://www.showbie.com)",
   "maintainers": [
     "Jeff Nelson (https://www.showbie.com)"
   ],
-  "homepage": "https://github.com/showbie/showbie-eslint-config",
-  "repository": "showbie/showbie-eslint-config",
-  "version": "3.0.0",
+  "workspaces": [
+    "./packages/*"
+  ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "changelog": "lerna-changelog",
     "changeset": "changeset add",
     "lint": "eslint '**/*.js'",
     "release": "changeset publish",
-    "test": "npm run lint"
+    "test": "lerna run eslint-check"
   },
-  "workspaces": [
-    "./packages/*"
-  ],
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ],
+    "package.json": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
   "devDependencies": {
     "@changesets/changelog-github": "0.3.0",
     "@changesets/cli": "2.14.1",
@@ -43,16 +54,5 @@
       "documentation": "📝 Documentation",
       "internal": "🏠 Internal"
     }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ],
-    "package.json": [
-      "prettier --write"
-    ]
-  },
-  "prettier": {
-    "singleQuote": true
   }
 }
