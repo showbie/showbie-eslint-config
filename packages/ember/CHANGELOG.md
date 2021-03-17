@@ -1,8 +1,6 @@
 # @showbie/eslint-config-ember
 
 ## 4.0.0
-### Major Changes
+#### 🍱 Split config into separate package [#220](https://github.com/showbie/showbie-eslint-config/pull/220)
 
-
-
-- [#220](https://github.com/showbie/showbie-eslint-config/pull/220) [`3d5c24c`](https://github.com/showbie/showbie-eslint-config/commit/3d5c24cdb703e080a8450761f29103866a9eba20) Thanks [@stormwarning](https://github.com/stormwarning)! - Split config into separate package
+For previous changes, see [CHANGELOG.md](https://github.com/showbie/showbie-eslint-config/blob/main/CHANGELOG.md).
