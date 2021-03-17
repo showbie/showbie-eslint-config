@@ -25,6 +25,7 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      # https://github.com/changesets/action
       - name: Create release pull request or Publish to npm
         id: changesets
         uses: changesets/action@master
@@ -32,6 +33,7 @@ jobs:
           # This expects you to have a script called `release` which does a
           # build for your packages and calls `changeset publish`.
           publish: npm run release
+          title: 'Chore: Publish release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
