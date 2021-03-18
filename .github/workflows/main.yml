@@ -18,6 +18,9 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Bootstrap monorepo
+        run: npm run bootstrap
+
       - name: Lint
         run: npm run lint
 
