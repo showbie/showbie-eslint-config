@@ -1,12 +1,12 @@
 # @showbie/eslint-config-ember
 
-## 4.0.1
+### 4.0.1 — 2021-03-17
 
-### Patch Changes
+#### 🐛 Fixed
 
-- [#226](https://github.com/showbie/showbie-eslint-config/pull/226) [`ef25c7e`](https://github.com/showbie/showbie-eslint-config/commit/ef25c7e5eac601709fb1f8e28c99b82ca9b0d952) Thanks [@stormwarning](https://github.com/stormwarning)! - Update internal dependencies/extends
+- Update internal dependencies/extends [#226](https://github.com/showbie/showbie-eslint-config/pull/226)
 
-## 4.0.0
+## 4.0.0 — 2021-03-16
 
 #### 🍱 Split config into separate package [#220](https://github.com/showbie/showbie-eslint-config/pull/220)
 
