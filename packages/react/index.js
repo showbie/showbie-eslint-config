@@ -23,14 +23,6 @@ module.exports = {
   ],
   rules: {
     /**
-     * We don't prefer `const`
-     * @see https://jamie.build/const
-     * @see https://madhatted.com/2016/1/25/let-it-be
-     * @see https://eslint.org/docs/rules/prefer-const
-     */
-    'prefer-const': 'off',
-
-    /**
      * Restrict file extensions that may contain JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
      */
