@@ -15,10 +15,14 @@ module.exports = {
   plugins: ['react', 'react-hooks'],
   extends: [
     '@showbie/eslint-config-typescript',
-    // https://github.com/yannickcr/eslint-plugin-react#recommended
+    // https://github.com/yannickcr/eslint-plugin-react
     'plugin:react/recommended',
     // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
     'plugin:react-hooks/recommended',
+    // https://github.com/testing-library/eslint-plugin-testing-library
+    'plugin:testing-library/react',
+    // https://github.com/testing-library/eslint-plugin-jest-dom
+    'plugin:jest-dom/recommended',
     'plugin:prettier/recommended',
   ],
   rules: {
