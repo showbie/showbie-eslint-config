@@ -15,8 +15,13 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/showbie/showbie-eslint-config.git",
+    "directory": "packages/base"
+  },
   "scripts": {
-    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
+    "eslint-check": "npx eslint-config-prettier index.js",
     "test": "npm run eslint-check"
   },
   "peerDependencies": {
@@ -25,5 +30,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1"
   }
 }

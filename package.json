@@ -1,6 +1,5 @@
 {
   "name": "@showbie/eslint-config-root",
-  "version": "3.0.0",
   "private": true,
   "description": "ESLint configuration for Showbie projects",
   "homepage": "https://github.com/showbie/showbie-eslint-config",
@@ -22,12 +21,8 @@
     "test": "lerna run eslint-check"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ],
-    "package.json": [
-      "prettier --write"
-    ]
+    "*.js": "eslint --fix",
+    "package.json": "prettier --write"
   },
   "prettier": {
     "singleQuote": true
@@ -35,9 +30,9 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.3.0",
     "@changesets/cli": "2.14.1",
+    "@showbie/eslint-config": "^4.0.0",
     "eslint": "7.22.0",
-    "eslint-config-prettier": "6.15.0",
-    "eslint-plugin-prettier": "3.3.1",
+    "eslint-config-prettier": "^8.1.0",
     "husky": "4.3.8",
     "lerna": "4.0.0",
     "lerna-changelog": "1.0.1",

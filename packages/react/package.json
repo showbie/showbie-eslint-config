@@ -7,6 +7,11 @@
     "react",
     "showbie"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/showbie/showbie-eslint-config.git",
+    "directory": "packages/react"
+  },
   "license": "ISC",
   "author": "Showbie (https://www.showbie.com)",
   "maintainers": [
@@ -17,10 +22,11 @@
     "index.js"
   ],
   "scripts": {
-    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
+    "eslint-check": "npx eslint-config-prettier index.js",
     "test": "npm run eslint-check"
   },
   "dependencies": {
+    "@showbie/eslint-config-typescript": "^4.0.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
