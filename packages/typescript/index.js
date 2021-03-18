@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    '@showbie',
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/configs/recommended.ts
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
