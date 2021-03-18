@@ -6,6 +6,11 @@
     "eslint-config",
     "showbie"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/showbie/showbie-eslint-config.git",
+    "directory": "packages/base"
+  },
   "license": "ISC",
   "author": "Showbie (https://www.showbie.com)",
   "maintainers": [
@@ -15,14 +20,13 @@
   "files": [
     "index.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/showbie/showbie-eslint-config.git",
-    "directory": "packages/base"
-  },
   "scripts": {
     "eslint-check": "npx eslint-config-prettier index.js",
     "test": "npm run eslint-check"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1"
   },
   "peerDependencies": {
     "eslint": ">=5",
@@ -30,9 +34,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1"
   }
 }

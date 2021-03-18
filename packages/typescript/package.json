@@ -7,6 +7,11 @@
     "typescript",
     "showbie"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/showbie/showbie-eslint-config.git",
+    "directory": "packages/typescript"
+  },
   "license": "ISC",
   "author": "Showbie (https://www.showbie.com)",
   "maintainers": [
@@ -16,11 +21,6 @@
   "files": [
     "index.js"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/showbie/showbie-eslint-config.git",
-    "directory": "packages/typescript"
-  },
   "scripts": {
     "eslint-check": "npx eslint-config-prettier index.js",
     "test": "npm run eslint-check"
