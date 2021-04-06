@@ -35,6 +35,16 @@ module.exports = {
     ],
 
     /**
+     * Disallow empty functions (except arrow functions)
+     * @see https://eslint.org/docs/rules/no-empty-function
+     * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md
+     */
+    '@typescript-eslint/no-empty-function': [
+      'error',
+      { allow: ['arrowFunctions'] },
+    ],
+
+    /**
      * Disallow unused variables
      * @see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
      */
