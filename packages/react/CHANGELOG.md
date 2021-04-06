@@ -1,13 +1,10 @@
 # @showbie/eslint-config-react
 
-## 4.1.1
+### 4.1.1 — 2021-04-05
 
-### Patch Changes
+#### 🐛 Fixed
 
-- [#232](https://github.com/showbie/showbie-eslint-config/pull/232) [`b275d57`](https://github.com/showbie/showbie-eslint-config/commit/b275d5736313c941a96b3ea58ddae34907fe3151) Thanks [@stormwarning](https://github.com/stormwarning)! - Install Prettier ESLint plugin with config
-
-- Updated dependencies [[`b275d57`](https://github.com/showbie/showbie-eslint-config/commit/b275d5736313c941a96b3ea58ddae34907fe3151), [`f277cb3`](https://github.com/showbie/showbie-eslint-config/commit/f277cb3fe823523196ee313d28acf82a1fccb5c4)]:
-  - @showbie/eslint-config-typescript@4.0.2
+- Install Prettier ESLint plugin with config [#232](https://github.com/showbie/showbie-eslint-config/pull/232)
 
 ## 4.1.0 — 2021-03-17
 
