@@ -1,5 +1,17 @@
 # @showbie/eslint-config-typescript
 
+### 4.0.2
+
+#### 🐛 Fixed
+
+- Install Prettier ESLint plugin with config [#232](https://github.com/showbie/showbie-eslint-config/pull/232)
+
+#### ♻️ Changed
+
+- Add `no-empty-function` setting [#233](https://github.com/showbie/showbie-eslint-config/pull/233)
+  Allows use in arrow functions, i.e. `() => {}`, which are currently used
+  frequently in tests, default props, and Storybook examples.
+
 ### 4.0.1 — 2021-03-17
 
 #### 🐛 Fixed

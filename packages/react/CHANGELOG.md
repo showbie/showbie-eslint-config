@@ -1,5 +1,11 @@
 # @showbie/eslint-config-react
 
+### 4.1.1 — 2021-04-05
+
+#### 🐛 Fixed
+
+- Install Prettier ESLint plugin with config [#232](https://github.com/showbie/showbie-eslint-config/pull/232)
+
 ## 4.1.0 — 2021-03-17
 
 #### ♻️ Changed
