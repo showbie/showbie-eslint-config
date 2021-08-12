@@ -1,3 +1,5 @@
+**_Note:_ Further versions of these packages will be published to the GitHub Package registry.**
+
 # showbie-eslint-config
 
 [![npm version][npm-img]][npm-url]
@@ -30,7 +32,7 @@ Then add the extends to your `.eslintrc.js`:
 }
 ```
 
-If Ember or React conventions aren’t required, don’t install the 
+If Ember or React conventions aren’t required, don’t install the
 plugins and don’t include the extra `extends` item.
 
 You’ll probably want to ensure you have a couple of Prettier’s
@@ -43,7 +45,5 @@ options set as well.
 ```
 
 [npm-url]: https://www.npmjs.com/package/@showbie/eslint-config
-
 [npm-img]: https://img.shields.io/npm/v/@showbie/eslint-config.svg?style=flat-square
-
 [eslint]: https://eslint.org
