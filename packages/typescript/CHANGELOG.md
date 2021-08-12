@@ -1,5 +1,22 @@
 # @showbie/eslint-config-typescript
 
+## 5.0.0
+
+### Major Changes
+
+- [#253](https://github.com/showbie/showbie-eslint-config/pull/253) [`eb057a1`](https://github.com/showbie/showbie-eslint-config/commit/eb057a18e4c0bce3efb079ca044b656338b15f4c) Thanks [@stormwarning](https://github.com/stormwarning)! - New versions are now published to the GitHub Package registry
+
+  You will need to add the following to `.npmrc` in your project root:
+
+  ```
+  @showbie:registry=https://npm.pkg.github.com/showbie
+  ```
+
+### Patch Changes
+
+- Updated dependencies [[`eb057a1`](https://github.com/showbie/showbie-eslint-config/commit/eb057a18e4c0bce3efb079ca044b656338b15f4c)]:
+  - @showbie/eslint-config@5.0.0
+
 ## 4.0.3 — 2021-08-12
 
 #### 🚚 Deprecated
