@@ -1,5 +1,11 @@
 # @showbie/eslint-config
 
+### 4.0.2 — 2021-08-12
+
+#### 🚚 Deprecated
+
+- Further versions of this package will be published to the GitHub Package registry [#251](https://github.com/showbie/showbie-eslint-config/pull/251)
+
 ### 4.0.1 — 2021-03-17
 
 #### 🐛 Fixed
