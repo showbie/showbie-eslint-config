@@ -1,11 +1,10 @@
 # @showbie/eslint-config-react
 
-## 4.1.2
+## 4.1.2 — 2021-08-12
 
-### Patch Changes
+#### 🚚 Deprecated
 
-- [#251](https://github.com/showbie/showbie-eslint-config/pull/251) [`1f5c22d`](https://github.com/showbie/showbie-eslint-config/commit/1f5c22d01801add5a2efcbb10f7fc136fa4f63ca) Thanks [@stormwarning](https://github.com/stormwarning)! - Further versions of this package will be published to the GitHub Package registry
-
+- Further versions of this package will be published to the GitHub Package registry [#251](https://github.com/showbie/showbie-eslint-config/pull/251)
 - Updated dependencies [[`1f5c22d`](https://github.com/showbie/showbie-eslint-config/commit/1f5c22d01801add5a2efcbb10f7fc136fa4f63ca)]:
   - @showbie/eslint-config-typescript@4.0.3
 
