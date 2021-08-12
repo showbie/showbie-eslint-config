@@ -10,25 +10,39 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      # https://github.com/actions/checkout
       - name: Checkout repo
-        uses: actions/checkout@master
+        uses: actions/checkout@main
         with:
-          # This makes Actions fetch all git history so that Changesets can
-          # generate changelogs with the correct commits.
           fetch-depth: 0
 
+      # https://github.com/actions/setup-node/
       - name: Setup Node.js 14.x
-        uses: actions/setup-node@master
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: 14.x
+          registry-url: https://npm.pkg.github.com
 
+      # https://github.com/bahmutov/npm-install
+      # Custom install command to prevent husky from installing.
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-          useLockFile: false
+          install-command: npm ci --ignore-scripts --no-audit
+
+      # Create a temp .npmrc file so changesets doesn't use its default.
+      - name: Create CI .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
+            registry=https://npm.pkg.github.com/
+            always-auth=true
+          EOF
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # https://github.com/changesets/action
-      - name: Create release pull request or Publish to npm
+      - name: Create release PR or publish to registry
         id: changesets
         uses: changesets/action@master
         with:
@@ -38,4 +52,4 @@ jobs:
           title: 'Chore: Publish release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

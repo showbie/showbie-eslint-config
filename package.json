@@ -18,7 +18,8 @@
     "changeset": "changeset add",
     "lint": "eslint '**/*.js'",
     "release": "changeset publish",
-    "test": "lerna run eslint-check"
+    "test": "lerna run eslint-check",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.js": "eslint --fix",
@@ -33,7 +34,7 @@
     "@showbie/eslint-config": "^4.0.0",
     "eslint": "7.22.0",
     "eslint-config-prettier": "^8.1.0",
-    "husky": "4.3.8",
+    "husky": "7.0.1",
     "lerna": "4.0.0",
     "lerna-changelog": "1.0.1",
     "lint-staged": "10.5.4",
@@ -44,10 +45,12 @@
     "repo": "showbie/showbie-eslint-config",
     "labels": {
       "breaking": "💣 Breaking Change",
-      "enhancement": "🚀 Enhancement",
-      "bug": "🐛 Bug Fix",
-      "documentation": "📝 Documentation",
-      "internal": "🏠 Internal"
+      "removed": "🗑️ Removed",
+      "deprecated": "🚚 Deprecated",
+      "changed": "♻️ Changed",
+      "added": "🎁 Added",
+      "fixed": "🐛 Fixed",
+      "security": "🔒 Security"
     }
   }
 }
