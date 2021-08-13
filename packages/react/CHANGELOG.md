@@ -1,10 +1,10 @@
 # @showbie/eslint-config-react
 
-## 5.0.0
+## 5.0.0 — 2021-08-12
 
-### Major Changes
+#### 💣 Breaking Changes
 
-- [#253](https://github.com/showbie/showbie-eslint-config/pull/253) [`eb057a1`](https://github.com/showbie/showbie-eslint-config/commit/eb057a18e4c0bce3efb079ca044b656338b15f4c) Thanks [@stormwarning](https://github.com/stormwarning)! - New versions are now published to the GitHub Package registry
+- New versions are now published to the GitHub Package registry [#253](https://github.com/showbie/showbie-eslint-config/pull/253)
 
   You will need to add the following to `.npmrc` in your project root:
 
