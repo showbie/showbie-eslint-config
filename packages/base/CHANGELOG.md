@@ -1,5 +1,17 @@
 # @showbie/eslint-config
 
+## 5.0.0 — 2021-08-12
+
+#### 💣 Breaking Changes
+
+- New versions are now published to the GitHub Package registry [#253](https://github.com/showbie/showbie-eslint-config/pull/253)
+
+  You will need to add the following to `.npmrc` in your project root:
+
+  ```
+  @showbie:registry=https://npm.pkg.github.com/showbie
+  ```
+
 ### 4.0.2 — 2021-08-12
 
 #### 🚚 Deprecated
