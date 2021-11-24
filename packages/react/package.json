@@ -1,6 +1,6 @@
 {
   "name": "@showbie/eslint-config-react",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "ESLint configuration for Showbie React projects",
   "keywords": [
     "eslint-config",
@@ -26,7 +26,7 @@
     "test": "npm run eslint-check"
   },
   "dependencies": {
-    "@showbie/eslint-config-typescript": "^5.0.0",
+    "@showbie/eslint-config-typescript": "^6.0.0",
     "eslint-plugin-jest-dom": "^3.6.5",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.22.0",

@@ -1,5 +1,18 @@
 # @showbie/eslint-config-typescript
 
+## 6.0.0
+
+### Major Changes
+
+- [#258](https://github.com/showbie/showbie-eslint-config/pull/258) [`007e50a`](https://github.com/showbie/showbie-eslint-config/commit/007e50a40ec756f51d0ce48a72ddf5a4ef8673d5) Thanks [@stormwarning](https://github.com/stormwarning)! - Upgraded `eslint-plugin-prettier`
+  Support dropped for old versions of ESLint, Prettier, and Node. Minimum required
+  versions are now `eslint@7.28.0`, `prettier@2`, `node@12`.
+
+### Patch Changes
+
+- Updated dependencies [[`007e50a`](https://github.com/showbie/showbie-eslint-config/commit/007e50a40ec756f51d0ce48a72ddf5a4ef8673d5)]:
+  - @showbie/eslint-config@6.0.0
+
 ## 5.0.0 — 2021-08-12
 
 #### 💣 Breaking Changes
@@ -11,6 +24,7 @@
   ```
   @showbie:registry=https://npm.pkg.github.com/showbie
   ```
+
 - Updated dependencies [`eb057a1`](https://github.com/showbie/showbie-eslint-config/commit/eb057a18e4c0bce3efb079ca044b656338b15f4c):
   - @showbie/eslint-config@5.0.0
 

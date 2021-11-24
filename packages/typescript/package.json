@@ -1,6 +1,6 @@
 {
   "name": "@showbie/eslint-config-typescript",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "ESLint configuration for Showbie TypeScript projects",
   "keywords": [
     "eslint-config",
@@ -26,7 +26,7 @@
     "test": "npm run eslint-check"
   },
   "dependencies": {
-    "@showbie/eslint-config": "^5.0.0",
+    "@showbie/eslint-config": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint-plugin-prettier": "^4.0.0"
