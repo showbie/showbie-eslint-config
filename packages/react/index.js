@@ -36,6 +36,12 @@ module.exports = {
     ],
 
     /**
+     * Enforce event handler naming conventions in JSX
+     * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
+     */
+    'react/jsx-handler-names': 'warn',
+
+    /**
      * Prevent missing React when using JSX
      * @see https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
      */
