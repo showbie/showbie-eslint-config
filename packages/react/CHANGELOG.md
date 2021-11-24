@@ -1,10 +1,10 @@
 # @showbie/eslint-config-react
 
-## 7.0.0
+## 7.0.0 — 2021-11-24
 
-### Major Changes
+#### 💣 Breaking Changes
 
-- [#264](https://github.com/showbie/showbie-eslint-config/pull/264) [`8f7f78c`](https://github.com/showbie/showbie-eslint-config/commit/8f7f78cbff137aa2e152052caef30f4e2f71995e) Thanks [@stormwarning](https://github.com/stormwarning)! - Upgraded included eslint plugins to latest
+- Upgraded included eslint plugins to latest [#264](https://github.com/showbie/showbie-eslint-config/pull/264)  
   `eslint-plugin-testing-library` is a major version upgrade with changes to the
   recommended config; see the migration guides for [v4] and [v5] for details about
   the breaking changes.
@@ -12,9 +12,9 @@
   [v4]: https://github.com/testing-library/eslint-plugin-testing-library/blob/b510bd49aec17e58712edd46f889772eb3c35bc0/docs/migration-guides/v4.md
   [v5]: https://github.com/testing-library/eslint-plugin-testing-library/blob/b510bd49aec17e58712edd46f889772eb3c35bc0/docs/migration-guides/v5.md
 
-### Minor Changes
+#### 🎁 Added
 
-- [#266](https://github.com/showbie/showbie-eslint-config/pull/266) [`1d34d21`](https://github.com/showbie/showbie-eslint-config/commit/1d34d21f241d648cc254141360759adbd61bca72) Thanks [@stormwarning](https://github.com/stormwarning)! - Enable [`jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md) rule
+- Enable [`jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md) rule [#266](https://github.com/showbie/showbie-eslint-config/pull/266)
 
 ## 6.0.0 — 2021-11-24
 
