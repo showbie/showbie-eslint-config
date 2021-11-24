@@ -1,10 +1,10 @@
 # @showbie/eslint-config-ember
 
-## 6.0.0
+## 6.0.0 — 2021-11-24
 
-### Major Changes
+#### 💣 Breaking Changes
 
-- [#258](https://github.com/showbie/showbie-eslint-config/pull/258) [`007e50a`](https://github.com/showbie/showbie-eslint-config/commit/007e50a40ec756f51d0ce48a72ddf5a4ef8673d5) Thanks [@stormwarning](https://github.com/stormwarning)! - Upgraded `eslint-plugin-prettier`
+- Upgraded `eslint-plugin-prettier` [#258](https://github.com/showbie/showbie-eslint-config/pull/258)  
   Support dropped for old versions of ESLint, Prettier, and Node. Minimum required
   versions are now `eslint@7.28.0`, `prettier@2`, `node@12`.
 
