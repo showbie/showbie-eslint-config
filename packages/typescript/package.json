@@ -26,7 +26,7 @@
     "test": "npm run eslint-check"
   },
   "dependencies": {
-    "@showbie/eslint-config": "^6.0.0",
+    "@showbie/eslint-config": "*",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint-plugin-prettier": "^4.0.0"
