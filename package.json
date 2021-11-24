@@ -17,9 +17,9 @@
     "changelog": "lerna-changelog",
     "changeset": "changeset add",
     "lint": "eslint '**/*.js'",
+    "prepare": "husky install",
     "release": "changeset publish",
-    "test": "lerna run eslint-check",
-    "prepare": "husky install"
+    "test": "lerna run eslint-check"
   },
   "lint-staged": {
     "*.js": "eslint --fix",
@@ -29,17 +29,18 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.3.0",
-    "@changesets/cli": "2.14.1",
-    "@showbie/eslint-config": "^4.0.0",
-    "eslint": "7.22.0",
-    "eslint-config-prettier": "^8.1.0",
-    "husky": "7.0.1",
+    "@changesets/changelog-github": "0.4.1",
+    "@changesets/cli": "2.18.0",
+    "@showbie/eslint-config": "5.0.0",
+    "eslint": "8.3.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "7.0.4",
     "lerna": "4.0.0",
-    "lerna-changelog": "1.0.1",
-    "lint-staged": "10.5.4",
-    "prettier": "2.2.1",
-    "prettier-plugin-packagejson": "2.2.10"
+    "lerna-changelog": "2.2.0",
+    "lint-staged": "12.1.2",
+    "prettier": "2.4.1",
+    "prettier-plugin-packagejson": "2.2.15"
   },
   "changelog": {
     "repo": "showbie/showbie-eslint-config",
