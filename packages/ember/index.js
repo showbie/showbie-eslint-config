@@ -4,6 +4,10 @@
  */
 module.exports = {
   plugins: ['ember', 'hbs'],
+  extends: [
+    // https://github.com/platinumazure/eslint-plugin-qunit
+    'plugin:qunit/recommended',
+  ],
   rules: {
     /**
      * Disallow usage of empty attributes in Ember Data models.
