@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-          install-command: npm ci --ignore-scripts --no-audit
+          install-command: npm ci --ignore-scripts --no-audit --legacy-peer-deps
 
       # https://github.com/changesets/action
       - name: Create release PR or publish to registry
