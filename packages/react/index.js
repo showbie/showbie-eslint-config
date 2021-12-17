@@ -19,10 +19,6 @@ module.exports = {
     'plugin:react/recommended',
     // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
     'plugin:react-hooks/recommended',
-    // https://github.com/testing-library/eslint-plugin-testing-library
-    'plugin:testing-library/react',
-    // https://github.com/testing-library/eslint-plugin-jest-dom
-    'plugin:jest-dom/recommended',
     'plugin:prettier/recommended',
   ],
   rules: {
@@ -105,4 +101,33 @@ module.exports = {
      */
     'react-hooks/exhaustive-deps': 'error',
   },
+  overrides: [
+    // Test files
+    {
+      files: ['*.test.(j|tsx?)'],
+      env: {
+        'jest/globals': true,
+      },
+      extends: [
+        // https://github.com/testing-library/eslint-plugin-testing-library
+        'plugin:testing-library/react',
+        // https://github.com/testing-library/eslint-plugin-jest-dom
+        'plugin:jest-dom/recommended',
+        'plugin:prettier/recommended',
+      ],
+      rules: {
+        /**
+         * Disallow the use of `cleanup`
+         * @see https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-manual-cleanup.md
+         */
+        'testing-library/no-manual-cleanup': 'error',
+
+        /**
+         * Suggest using `userEvent` library instead of `fireEvent` for simulating user interaction
+         * @see https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/prefer-user-event.md
+         */
+        'testing-library/prefer-user-event': 'warn',
+      },
+    },
+  ],
 };
