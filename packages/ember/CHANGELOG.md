@@ -1,5 +1,12 @@
 # @showbie/eslint-config-ember
 
+## 6.1.0 — 2021-12-17
+
+#### 🎁 Added
+
+- Added `eslint-plugin-qunit` plugin [#268](https://github.com/showbie/showbie-eslint-config/pull/268)  
+  Adds recommended settings for QUnit tests.
+
 ## 6.0.0 — 2021-11-24
 
 #### 💣 Breaking Changes

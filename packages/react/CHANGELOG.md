@@ -1,5 +1,12 @@
 # @showbie/eslint-config-react
 
+## 7.1.0 — 2021-12-17
+
+#### ♻️ Changed
+
+- Restrict testing rules to test files [#277](https://github.com/showbie/showbie-eslint-config/pull/277)  
+  Only extends `testing-library` and `jest-dom` configs for \*.test. files.
+
 ## 7.0.0 — 2021-11-24
 
 #### 💣 Breaking Changes
