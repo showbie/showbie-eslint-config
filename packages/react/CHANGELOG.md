@@ -1,5 +1,13 @@
 # @showbie/eslint-config-react
 
+## 7.2.0 — 2022-01-21
+
+#### 🎁 Added
+
+- Add `jest` plugin and recommended settings [#282](https://github.com/showbie/showbie-eslint-config/pull/282)
+
+  Updates the test file overrides globs as well.
+
 ## 7.1.0 — 2021-12-17
 
 #### ♻️ Changed
