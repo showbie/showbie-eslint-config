@@ -104,11 +104,18 @@ module.exports = {
   overrides: [
     // Test files
     {
-      files: ['*.test.(j|tsx?)'],
+      files: [
+        '**/__tests__/**/*.{js,ts,tsx}',
+        '**/*.@(spec|test).{js,ts,tsx}',
+        '**/*TestSuite.{js,ts,tsx}',
+      ],
       env: {
-        'jest/globals': true,
+        jest: true,
       },
+      plugins: ['jest', 'testing-library', 'jest-dom'],
       extends: [
+        // https://github.com/jest-community/eslint-plugin-jest
+        'plugin:jest/recommended',
         // https://github.com/testing-library/eslint-plugin-testing-library
         'plugin:testing-library/react',
         // https://github.com/testing-library/eslint-plugin-jest-dom
