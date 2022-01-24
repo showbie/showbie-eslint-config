@@ -9,8 +9,8 @@
   "commit": false,
   "ignore": [],
   "linked": [
-    ["packages/typescript", "packages/base"],
-    ["packages/react", "packages/typescript"]
+    ["@showbie/eslint-config-typescript", "@showbie/eslint-config"],
+    ["@showbie/eslint-config-react", "@showbie/eslint-config-typescript"]
   ],
   "updateInternalDependencies": "patch"
 }
