@@ -8,6 +8,9 @@
   ],
   "commit": false,
   "ignore": [],
-  "linked": [],
+  "linked": [
+    ["typescript", "base"],
+    ["react", "typescript"]
+  ],
   "updateInternalDependencies": "patch"
 }
