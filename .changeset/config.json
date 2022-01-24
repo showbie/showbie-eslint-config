@@ -9,8 +9,11 @@
   "commit": false,
   "ignore": [],
   "linked": [
-    ["@showbie/eslint-config-typescript", "@showbie/eslint-config"],
-    ["@showbie/eslint-config-react", "@showbie/eslint-config-typescript"]
+    [
+      "@showbie/eslint-config-react",
+      "@showbie/eslint-config-typescript",
+      "@showbie/eslint-config"
+    ]
   ],
   "updateInternalDependencies": "patch"
 }
