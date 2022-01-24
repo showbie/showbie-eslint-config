@@ -1,5 +1,14 @@
 # @showbie/eslint-config-react
 
+### 7.2.1 — 2022-01-24
+
+#### 🐛 Fixed
+
+- Fix wildcard version ranges [#286](https://github.com/showbie/showbie-eslint-config/pull/286)
+
+  Using version range instead of `*` for sibling packages should fix the
+  issue of plugin dependencies not being installed.
+
 ## 7.2.0 — 2022-01-21
 
 #### 🎁 Added
