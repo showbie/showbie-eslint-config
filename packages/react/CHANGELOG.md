@@ -1,13 +1,13 @@
 # @showbie/eslint-config-react
 
-## 7.2.1
+### 7.2.1 — 2022-01-24
 
-### Patch Changes
+#### 🐛 Fixed
 
-- [#286](https://github.com/showbie/showbie-eslint-config/pull/286) [`64d0598`](https://github.com/showbie/showbie-eslint-config/commit/64d05981b884b785d4d50502986751d9550329c7) Thanks [@stormwarning](https://github.com/stormwarning)! - Fix wildcard version ranges
+- Fix wildcard version ranges [#286](https://github.com/showbie/showbie-eslint-config/pull/286)
 
-- Updated dependencies [[`64d0598`](https://github.com/showbie/showbie-eslint-config/commit/64d05981b884b785d4d50502986751d9550329c7)]:
-  - @showbie/eslint-config-typescript@7.2.1
+  Using version range instead of `*` for sibling packages should fix the
+  issue of plugin dependencies not being installed.
 
 ## 7.2.0 — 2022-01-21
 
