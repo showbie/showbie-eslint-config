@@ -1,5 +1,11 @@
 # @showbie/eslint-config-typescript
 
+## 7.2.1
+
+### Patch Changes
+
+- [#286](https://github.com/showbie/showbie-eslint-config/pull/286) [`64d0598`](https://github.com/showbie/showbie-eslint-config/commit/64d05981b884b785d4d50502986751d9550329c7) Thanks [@stormwarning](https://github.com/stormwarning)! - Fix wildcard version ranges
+
 ## 6.0.0 — 2021-11-24
 
 #### 💣 Breaking Changes
