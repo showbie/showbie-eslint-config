@@ -26,7 +26,7 @@
     "test": "npm run eslint-check"
   },
   "dependencies": {
-    "@showbie/eslint-config-typescript": "*",
+    "@showbie/eslint-config-typescript": "^6.0.0",
     "eslint-plugin-jest": "^25.7.0",
     "eslint-plugin-jest-dom": "^4.0.1",
     "eslint-plugin-prettier": "^4.0.0",
@@ -35,8 +35,8 @@
     "eslint-plugin-testing-library": "^5.0.4"
   },
   "peerDependencies": {
-    "eslint": ">=7.28",
-    "prettier": ">=2"
+    "eslint": "^7.28.0",
+    "prettier": "^2.0.0"
   },
   "publishConfig": {
     "access": "public"
