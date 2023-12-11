@@ -13,7 +13,6 @@
     "./packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "changelog": "lerna-changelog",
     "changeset": "changeset add",
     "lint": "eslint '**/*.js'",
@@ -35,8 +34,8 @@
     "eslint": "8.3.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
-    "husky": "7.0.4",
-    "lerna": "4.0.0",
+    "husky": "8.0.3",
+    "lerna": "^8.0.0",
     "lerna-changelog": "2.2.0",
     "lint-staged": "12.1.2",
     "prettier": "2.4.1",
