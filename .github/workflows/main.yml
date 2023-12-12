@@ -10,10 +10,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Setup Node.js 16.x
-        uses: actions/setup-node@v2.5.1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 16.x
+          node-version-file: '.nvmrc'
 
       # Create a temp .npmrc to authenticate with GPR.
       - name: Create CI .npmrc
@@ -26,14 +26,10 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # https://github.com/bahmutov/npm-install
-      # Custom install command to prevent husky from installing.
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-          install-command: npm ci --ignore-scripts --no-audit --legacy-peer-deps
-
-      - name: Bootstrap monorepo
-        run: npm run bootstrap
+          install-command: npm ci --ignore-scripts --no-audit
 
       - name: Lint
         run: npm run lint
