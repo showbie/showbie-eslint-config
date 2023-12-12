@@ -1,5 +1,11 @@
 # @showbie/eslint-config
 
+## 7.2.2
+
+### Patch Changes
+
+- [#333](https://github.com/showbie/showbie-eslint-config/pull/333) [`d9f8545`](https://github.com/showbie/showbie-eslint-config/commit/d9f854532b1223f5d2f19d974d9ceaa6c42b557a) Thanks [@RobinPayne](https://github.com/RobinPayne)! - Updated peer dependencies so things can install better.
+
 ## 6.0.0 — 2021-11-24
 
 #### 💣 Breaking Changes
