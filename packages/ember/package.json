@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "eslint-plugin-ember": "8.12.x",
-    "eslint-plugin-hbs": "0.1.2",
+    "eslint-plugin-hbs": "1.0.3",
     "eslint-plugin-qunit": "^7.1.0"
   },
   "devDependencies": {
