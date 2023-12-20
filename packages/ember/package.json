@@ -26,7 +26,7 @@
     "test": "npm run eslint-check"
   },
   "dependencies": {
-    "eslint-plugin-ember": "8.12.x",
+    "eslint-plugin-ember": "11.4.x",
     "eslint-plugin-hbs": "0.1.2",
     "eslint-plugin-qunit": "^7.1.0"
   },
